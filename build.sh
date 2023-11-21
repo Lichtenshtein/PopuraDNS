@@ -27,6 +27,7 @@ cd $BUILDDIR
 cp $WORKDIR/plugin.cfg .
 go get github.com/zhoreeq/coredns-meshname
 go get github.com/zhoreeq/coredns-meship
+go get github.com/wealdtech/coredns-ens
 go mod download
 
 echo "building..."
